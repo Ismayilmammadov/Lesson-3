@@ -1,3 +1,9 @@
 #navbar{
     text-align: right;
+    color: black;
+}
+#navbar li{
+    display: inline;
+    font-size: 15px;
+    
 }
