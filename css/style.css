@@ -1,9 +1,58 @@
 #navbar{
     text-align: right;
     color: black;
+    background-image: url('../image/AdobeStock_244807532-2048x1024.jpeg');
+    background-position: center;
+    padding: 50px;
 }
 #navbar li{
     display: inline;
-    font-size: 15px;
+    font-size: 30px;
     
+   
+   
+}
+.list li:hover {
+    color: red ;
+}
+
+
+#navbar a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(41, 167, 37);
+    line-height: 1.8em;
+
+
+}
+#main-head{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#main{
+    width: 60%;
+    float: left;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    height: 1000px;
+
+}
+#sidebar{
+    float: right;
+    width: 10%;
+}
+
+#sidebar img{
+    width: 100px;
+}
+#main-footer{
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: turquoise;
+    color: white;
+
 }
